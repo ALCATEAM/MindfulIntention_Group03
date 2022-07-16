@@ -39,7 +39,7 @@ function getRequest(page){
     break;
     case 'both':{
       var dataRequest = new XMLHttpRequest; 
-      dataRequest.open('GET',"json/Aerobic-data.JSON"); 
+      dataRequest.open('GET',"json/Aerobic-data.json"); 
       dataRequest.onload = function (){
       var aerobicData = JSON.parse(dataRequest.responseText);
       renderBoth(aerobicData);

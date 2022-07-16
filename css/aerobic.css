@@ -30,23 +30,25 @@ font-size: 18pt;
 }
 .spa-btn{
     text-decoration: none;
-    color: black;
+    color: #579f66;
 }
 .display-5
 {
     font-size: 45pt;
-    color: black;
+    font-weight: 400;
+    color: #579f66;
 }
 .nav-item:active,
 .nav-item:focus,
 .nav-item:hover{
+
  background-color: #579f66;
 }
 .spa-btn:active,
 .spa-btn:focus,
 .spa-btn:hover
 {
-    color:pink;
+    color:#cd7577;
 }
 /* Nav Bar End */
 .my-container
@@ -59,6 +61,9 @@ font-size: 18pt;
   position: relative;
   transition: 0.2s;
   padding: 80px 0 0 0;
+}
+hr{
+  border: double;
 }
 /* Start product */
 

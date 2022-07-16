@@ -16,67 +16,103 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <!--AngularJS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js"></script>
-    <!--index CSS-->
-    <link rel="stylesheet" href="css/Homepage-landing-style.css">
-    <link rel="stylesheet" href="css/Meditation-style.css">
+    <!--Homepage-landing CSS-->
+    <link rel="stylesheet" href="Homepage-landing-style.css">
+    <link rel="stylesheet" href="Meditation-style.css">
     <title>Meditation</title>
 </head>
 <body>
     <!--Logo and navigation bar start-->
     <header>
-        <a href="index.html" class="logo">Healthy Mind</a>
+        <a href="Homepage-landing.html" class="logo">Healthy Mind</a>
         <!--Menu button-->
         <input type="checkbox" id="menu-bar">
         <label for="menu-bar"><i class="fas fa-bars"></i></label>
         <!--Navbar items-->
         <nav class="navbar">
             <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="index.html#home-aerobic">Aerobic</a></li>
-                <li><a href="meditation.html">Meditation</a></li>
-                <li><a href="references.html">References</a></li>
-                <li><a href="index.html#about">About Us</a>
-                <li><a href="index.html#contact">Contact</a></li>
-                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="Homepage-landing.html" class="active">Home</a></li>
+                <li><a href="Homepage-landing.html#home-aerobic">Aerobic</a></li>
+                <li><a href="Meditation.html">Meditation</a></li>
+                <li><a href="References.html">References</a></li>
+                <li><a href="Homepage-landing.html#about">About Us</a>
+                <li><a href="Homepage-landing.html#contact">Contact</a></li>
+                <li><a href="Feedback.html">Feedback</a></li>
                 </li>
             </ul>
         </nav>
     </header>
     <!--Logo and navigation bar end-->
 
+    <!--Meditation Images Carousel start-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./imgs/meditation-img-carousel/1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imgs/meditation-img-carousel/2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imgs/meditation-img-carousel/3.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imgs/meditation-img-carousel/4.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--Meditation Images Carousel end-->
+
     <!--Meditation content start-->
     <section class="meditation-container">
-        <div class="meditation-header">
-            <img src="imgs/Meditation-slide.jpg">
-        </div>
-        <br>
         <div class="meditation-tabs">
             <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+
                 <!--Overview tab start-->
                 <li class="nav-item" role="presentation">
                   <button class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview" type="button" role="tab" aria-controls="overview" aria-selected="true">Overview</button>
                 </li>
                 <!--Overview tab end-->
+
                 <!--Definition tab start-->
                 <li class="nav-item" role="presentation">
                   <button class="nav-link" id="definitions-tab" data-bs-toggle="tab" data-bs-target="#definitions" type="button" role="tab" aria-controls="definitions" aria-selected="false">Definitions</button>
                 </li>
                 <!--Definition tab end-->
+
                 <!--Meditation traditions tab start-->
                 <li class="nav-item" role="presentation">
                   <button class="nav-link" id="traditions-tab" data-bs-toggle="tab" data-bs-target="#traditions" type="button" role="tab" aria-controls="traditions" aria-selected="false">Meditation traditions</button>
                 </li>
                 <!--Meditation traditions tab end-->
+
                 <!--Forms and techniques tab start-->
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="forms-tab" data-bs-toggle="tab" data-bs-target="#forms" type="button" role="tab" aria-controls="forms" aria-selected="false">Forms & Techniques</button>
                 </li>
                 <!--Forms and techniques tab end-->
+
                 <!--Secular applications tab start-->
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="definition-tab" data-bs-toggle="tab" data-bs-target="#applications" type="button" role="tab" aria-controls="applications" aria-selected="false">Secular applications</button>
                   </li>
                   <!--Secular applications tab end-->
+
                 <!--Effects tab start-->
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="effects-tab" data-bs-toggle="tab" data-bs-target="#effects" type="button" role="tab" aria-controls="effects" aria-selected="false">Effects</button>
@@ -84,10 +120,11 @@
                 <!--Effects tab end-->
             </ul>
             <div class="tab-content" id="myTabContent">
+
                 <!--Overview content start-->
                 <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
                     <div class="meditation-content">
-                        <img src="imgs/meditation/Overview.jpg" 
+                        <img src="./imgs/meditation/Overview.jpg" 
                         class="floating-img right"
                         title="Meditation">
 
@@ -115,9 +152,10 @@
                 <!--Definition content start-->
                 <div class="tab-pane fade" id="definitions" role="tabpanel" aria-labelledby="definitions-tab">
                     <div class="meditation-content">
-                        <img src="imgs/meditation/ClaudioNaranjo.jpg" 
-                        class="img-responsive floating-img left" 
-                        title="Claudio Naranjo">
+                        <img src="./imgs/meditation/ClaudioNaranjo.jpg" 
+                        class="floating-img left" 
+                        title="Claudio Naranjo"
+                        style="max-width: 300px">
                         
                         <h4>Definitions of Meditation</h4>
                         <hr>
@@ -131,7 +169,7 @@
                     <br>
 
                     <div class="meditation-content">
-                        <img src="imgs/meditation/Definition.jpeg" 
+                        <img src="./imgs/meditation/Definition.jpeg" 
                         class="img-responsive floating-img right"
                         title="Home meditation">
 
@@ -150,7 +188,7 @@
                     
                     <div class="meditation-content">
 
-                        <img src="imgs/meditation/dictionarydefinition.jpg"
+                        <img src="./imgs/meditation/dictionarydefinition.jpg"
                         class="floating-img left"
                         title="Dictionary Definition"
                         style="max-width: 300px; max-height: 200px">
@@ -179,6 +217,12 @@
                         <hr>
 
                         <!--Jainism-->
+
+                        <img src="./imgs/meditation/JainMeditation.jpg"
+                        title="Jainism Meditation"
+                        class="floating-img right"
+                        style="margin-top: 40px">
+
                         <h5>Jainism</h5>
                         <p>  
                             Jain meditation and spiritual practices system were referred to as salvation-path. 
@@ -204,8 +248,14 @@
                             In vipaka vichāya, one reflects on the eight causes or basic types of karma. 
                             In sansathan vichāya, one thinks about the vastness of the universe and the loneliness of the soul.
                         </p>
+                        <br><br>
 
                         <!--Buddhism-->
+
+                        <img src="./imgs/meditation/BuddhistMeditation.jpg"
+                        title="Bodhidharma practicing zazen"
+                        class="floating-img left">
+
                         <h5>Buddhism</h5>
                         <p>
                             Buddhist meditation refers to the meditative practices associated with the religion and philosophy of Buddhism. 
@@ -242,8 +292,15 @@
                             The spread of Buddhist meditation to the Western world paralleled the spread of Buddhism in the West. 
                             The modernized concept of mindfulness (based on the Buddhist term sati) and related meditative practices have in turn led to mindfulness based therapies.
                         </p>
+                        <br><br>
 
                         <!--Hinduism-->
+
+                        <img src="./imgs/meditation/HinduismMeditation.jpg"
+                        title="A statue of Patañjali practicing dhyana in the Padma-asana at Patanjali Yogpeeth."
+                        class="floating-img right"
+                        style="margin-top: 40px">
+
                         <h5>Hinduism</h5>
                         <p>
                             There are many schools and styles of meditation within Hinduism. 
@@ -265,8 +322,14 @@
                             Later developments in Hindu meditation include the compilation of Hatha Yoga (forceful yoga) compendiums like the Hatha Yoga Pradipika, the development of Bhakti yoga as a major form of meditation, and Tantra. 
                             Another important Hindu yoga text is the Yoga Yajnavalkya, which makes use of Hatha Yoga and Vedanta Philosophy.
                         </p>
-                        
+                        <br><br>
                         <!--Sikhism-->
+
+                        <img src="./imgs/meditation/SikhismMeditation.jpg"
+                        title="Sikhism Meditation"
+                        class="floating-img left"
+                        style="max-width: 400px">
+
                         <h5>Sikhism</h5>
                         <p>
                             In Sikhism, simran (meditation) and good deeds are both necessary to achieve the devotee's Spiritual goals; without good deeds meditation is futile. 
@@ -274,8 +337,14 @@
                             It is only God's divine will or order that allows a devotee to desire to begin to meditate. 
                             Nām Japnā involves focusing one's attention on the names or great attributes of God.
                         </p>
+                        <br><br><br>
                     </div>
                     <div class="meditation-content">
+
+                        <img src="./imgs/meditation/TaoismMeditation.jpg"
+                        title="Taoism Meditation"
+                        class="floating-img right">
+
                         <h4>East Asian religions - Taoism</h4>
                         <hr>
                         <p>
@@ -309,6 +378,11 @@
                         <h4>Monotheistic religions</h4>
                         <hr>
 
+                        <img src="./imgs/meditation/JudaismMeditation.jpg"
+                        title="Judaism Meditation"
+                        class="floating-img right"
+                        style="margin-top: 40px">
+
                         <h5>Judaism</h5>
                         <p>
                             Judaism has made use of meditative practices for thousands of years. 
@@ -337,6 +411,11 @@
                             Conservative rabbi Alan Lew has emphasized meditation playing an important role in the process of teshuvah (repentance).
                             Jewish Buddhists have adopted Buddhist styles of meditation.
                         </p>
+                        <br><br>
+
+                        <img src="./imgs/meditation/ChristianityMeditation.jpg"
+                        title="Christianity Meditation"
+                        class="floating-img left">
 
                         <h5>Christianity</h5>
                         <p>
@@ -372,6 +451,12 @@
                             In Aspects of Christian meditation, the Catholic Church warned of potential incompatibilities in mixing Christian and Eastern styles of meditation. 
                             In 2003, in A Christian reflection on the New Age the Vatican announced that the "Church avoids any concept that is close to those of the New Age".
                         </p>
+                        <br><br>
+
+                        <img src="./imgs/meditation/IslamMeditation.jpg"
+                        title="Islam Meditation"
+                        class="floating-img right"
+                        style="margin-top: 40px">
 
                         <h5>Islam</h5>
                         <p>
@@ -416,6 +501,10 @@
                         <h4>Modern spirituality</h4>
                         <hr>
 
+                        <img src="./imgs/meditation/ModernMeditation.jpg"
+                        title="Modern Meditation"
+                        class="floating-img left">
+
                         <h5>Modern dissemination in the West</h5>
                         <p>
                             Meditation has spread in the West since the late 19th century, accompanying increased travel and communication among cultures worldwide. 
@@ -424,11 +513,14 @@
                         </p>
                         <p>
                             Ideas about Eastern meditation had begun "seeping into American popular culture even before the American Revolution through the various sects of European occult Christianity", and such ideas "came pouring in [to America] during the era of the transcendentalists, especially between the 1840s and the 1880s." 
-                            The following decades saw further spread of these ideas to America:
-                            The World Parliament of Religions, held in Chicago in 1893, was the landmark event that increased Western awareness of meditation. 
-                            This was the first time that Western audiences on American soil received Asian spiritual teachings from Asians themselves. 
-                            Thereafter, Swami Vivekananda... [founded] various Vedanta ashrams... 
-                            Anagarika Dharmapala lectured at Harvard on Theravada Buddhist meditation in 1904; Abdul Baha ... [toured] the US teaching the principles of Bahai [sic], and Soyen Shaku toured in 1907 teaching Zen...
+                            The following decades saw further spread of these ideas to America:<br>
+                            
+                                <q> The World Parliament of Religions, held in Chicago in 1893, was the landmark event that increased Western awareness of meditation. 
+                                    This was the first time that Western audiences on American soil received Asian spiritual teachings from Asians themselves. 
+                                    Thereafter, Swami Vivekananda... [founded] various Vedanta ashrams... 
+                                    Anagarika Dharmapala lectured at Harvard on Theravada Buddhist meditation in 1904; Abdul Baha ... [toured] the US teaching the principles of Bahai [sic], and Soyen Shaku toured in 1907 teaching Zen...
+                                </q>
+                            
                         </p>
                         <p>
                             More recently, in the 1960s, another surge in Western interest in meditative practices began.
@@ -444,6 +536,12 @@
                             Mantra meditation, with the use of a japa mala and especially with focus on the Hare Krishna maha-mantra, is a central practice of the Gaudiya Vaishnava faith tradition and the International Society for Krishna Consciousness (ISKCON), also known as the Hare Krishna movement. 
                             Other popular New Religious Movements include the Ramakrishna Mission, Vedanta Society, Divine Light Mission, Chinmaya Mission, Osho, Sahaja Yoga, Transcendental Meditation, Oneness University, Brahma Kumaris, Vihangam Yoga and Heartfulness Meditation (Sahaj Marg).
                         </p>
+                        <br><br>
+
+                        <img src="./imgs/meditation/NewAge.jpg"
+                        title="New Age Meditation"
+                        class="floating-img right"
+                        style="margin-top: 40px">
 
                         <h5>New Age</h5>
                         <p>
@@ -460,7 +558,10 @@
                 <!--Forms & Techniques content start-->
                 <div class="tab-pane fade" id="forms" role="tabpanel" aria-labelledby="forms-tab">
                     <div class="meditation-content">
-                        <img src="imgs/meditation/Classifications.png" alt="" class="img-responsive floating-img right">
+                        <img src="./imgs/meditation/Classifications.png"
+                        title="Types of Meditation"
+                        class="floating-img right"
+                        style="margin-top: 32px">
 
                         <h4>Classifications</h4>
                         <hr>
@@ -481,8 +582,14 @@
                         </p>
                     </div>
                     <div class="meditation-content">
-                        <h4>Frequency</h4>
+
+                        <img src="./imgs/meditation/Postures.jpg"
+                        title="Meditation Postures"
+                        class="floating-img left">
+
+                        <h4>Frequency & posture</h4>
                         <hr>
+                        <h5>Frequency</h5>
                         <p>
                             The Transcendental Meditation technique recommends practice of 20 minutes twice per day. 
                             Some techniques suggest less time, especially when starting meditation, and Richard Davidson has quoted research saying benefits can be achieved with a practice of only 8 minutes per day. 
@@ -490,15 +597,17 @@
                             Some meditators practice for much longer, particularly when on a course or retreat. 
                             Some meditators find practice best in the hours before dawn.
                         </p>
-                    </div>
-                    <div class="meditation-content">
-                        <h4>Posture</h4>
-                        <hr>
+                        <h5>Posture</h5>
                         <p>
                             Asanas and positions such as the full-lotus, half-lotus, Burmese, Seiza, and kneeling positions are popular in Buddhism, Jainism and Hinduism, although other postures such as sitting, supine (lying), and standing are also used. Meditation is also sometimes done while walking, known as kinhin, while doing a simple task mindfully, known as samu, or while lying down, known as savasana.
                         </p>
                     </div>
                     <div class="meditation-content">
+
+                        <img src="./imgs/meditation/UsingPrayerBeads.jpg"
+                        title="Use of prayer beads"
+                        class="floating-img right">
+
                         <h4>Use of prayer beads</h4>
                         <hr>
                         <p>
@@ -512,6 +621,12 @@
                         </p>
                     </div>
                     <div class="meditation-content">
+
+                        <img src="./imgs/meditation/TGriffithFoulk.jpg"
+                        title="T. Griffith Foulk"
+                        class="floating-img left"
+                        style="max-width: 300px; max-height: 200px">
+
                         <h4>Striking the meditator</h4>
                         <hr>
                         <p>
@@ -521,14 +636,26 @@
                         </p>
                     </div>
                     <div class="meditation-content">
+
+                        <img src="./imgs/meditation/RichardDavidson.jpg"
+                        title="Richard Davidson"
+                        class="floating-img left"
+                        style="max-width: 300px; max-height: 200px">
+
                         <h4>Using a narrative</h4>
                         <hr>
                         <p>
                             Neuroscientist and long-time meditator Richard Davidson has expressed the view that having a narrative can help the maintenance of daily practice. 
                             For instance he himself prostrates to the teachings, and meditates "not primarily for my benefit, but for the benefit of others".
                         </p>
+                        <br><br>
                     </div>
                     <div class="meditation-content">
+
+                        <img src="./imgs/meditation/GuidedMeditation.jpg"
+                        title="Guided Meditation"
+                        class="floating-img right">
+
                         <h4>Guided meditation</h4>
                         <hr>
                         <p>
@@ -553,7 +680,7 @@
                 <div class="tab-pane fade" id="applications" role="tabpanel" aria-labelledby="applications-tab">
                     <div class="meditation-content">
 
-                        <img src="imgs/meditation/CarlJung.jpg" 
+                        <img src="./imgs/meditation/CarlJung.jpg" 
                         title="Carl Jung (1875-1961)" 
                         class="floating-img left"
                         style="max-width: 300px; max-height: 200px;">
@@ -568,6 +695,11 @@
                         </p>
                     </div>
                     <div class="meditation-content">
+
+                        <img src="./imgs/meditation/ClinicalApplications.jpg" 
+                        title="Clinical Applications"
+                        class="floating-img right">
+
                         <h4>Clinical applications</h4>
                         <hr>
                         <p>
@@ -584,6 +716,11 @@
                         </p>
                     </div>
                     <div class="meditation-content">
+
+                        <img src="./imgs/meditation/OfficeMeditation.jpg"
+                        title="Meditation in the workplace"
+                        class="floating-img left">
+
                         <h4>Meditation in the workplace</h4>
                         <hr>
                         <p>
@@ -598,6 +735,11 @@
                         </p>
                     </div>
                     <div class="meditation-content">
+
+                        <img src="./imgs/meditation/SoundbasedMeditation.jpg"
+                        title="Sound-based Meditation"
+                        class="floating-img right">
+
                         <h4>Sound-based meditation</h4>
                         <hr>
                         <p>
@@ -614,7 +756,7 @@
                 <div class="tab-pane fade" id="effects" role="tabpanel" aria-labelledby="effects-tab">
                     <div class="meditation-content">
 
-                        <img src="imgs/meditation/Benefits.jpg" 
+                        <img src="./imgs/meditation/Benefits.jpg" 
                         title="Benefits of Meditation" 
                         class="floating-img right"
                         style="max-width: 600px; max-height: 500px">
@@ -646,7 +788,7 @@
                     </div>
                     <div class="meditation-content">
 
-                        <img src="imgs/meditation/PotentialAdverseEffectsOfMeditation.jpg" 
+                        <img src="./imgs/meditation/PotentialAdverseEffectsOfMeditation.jpg" 
                         title="Potential adverse effects of Meditation" 
                         class="floating-img left">
 
@@ -677,16 +819,16 @@
             <div class="col-md-9 text-center">
                 <!--Site's logo-->
                 <div class="footer-site-logo mb-4">
-                    <a href="index.html">Healthy Mind</a>
+                    <a href="Homepage-landing.html">Healthy Mind</a>
                 </div>
                 <!--Footer's sub navbar-->
                 <ul class="list-unstyled nav-links mb-5">
-                    <li><a href="index.html#home-aerobic">Aerobic</a></li>
-                    <li><a href="meditation.html">Meditation</a></li>
-                    <li><a href="references.html">References</a></li>
-                    <li><a href="index.html#about">About Us</a></li>
-                    <li><a href="index.html#contact">Contact</a></li>
-                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="Homepage-landing.html#home-aerobic">Aerobic</a></li>
+                    <li><a href="Meditation.html">Meditation</a></li>
+                    <li><a href="References.html">References</a></li>
+                    <li><a href="Homepage-landing.html#about">About Us</a></li>
+                    <li><a href="Homepage-landing.html#contact">Contact</a></li>
+                    <li><a href="Feedback.html">Feedback</a></li>
                 </ul>
                 <!--Stay in touch with social media icons-->
                 <div class="social mb-4">

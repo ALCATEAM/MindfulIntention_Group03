@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aerobic</title>
+<!--Font Awesome CSS-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<!--Bootstrap 5 CSS-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!--Font Open Sans size-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+<!--JQuery Library-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!--Bootstrap 5 Javascript-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="css/aerobic.css">
+  </head>
+  <body onload="getOnload()">
+    <!--Aerobic Side Bar -->
+    <div id="sidenav">
+    <nav class="navbar navbar-expand d-flex flex-column align-item-start" id="sidebar">
+      <a href="#" class="navbar-brand text-light mt-5">
+        <div class="display-5">Aerobic
+        </div>
+      </a>
+      <ul class="navbar-nav d-flex flex-column mt-5 w-100">
+          <li class="nav-item nav-link w-100">
+            <a href="index.html" class="spa-btn pl-4" role="button">Home</a >
+          </li >
+          <li class="nav-item nav-link w-100">
+            <a href="meditation.html" class="spa-btn pl-4" role="button">Meditation</a >
+          </li>
+          <li class="nav-item nav-link w-100">
+              <a onclick = "getRequest('indoors')" class="spa-btn pl-4" role="button" >Indoor</a>
+          </li>
+          <li class="nav-item nav-link w-100">
+            <a onclick = "getRequest('outdoors')"  class="spa-btn pl-4" role="button">Outdoor</a>
+          </li>
+          <li class="nav-item nav-link w-100">
+          <a onclick = "getRequest('both')" class="spa-btn pl-4" role="button">Both</a>
+          </li>
+          <li class="nav-item nav-link w-100">
+          <a  href="references.html" class="spa-btn pl-4" role="button">References</a >
+          </li>
+          <li class="nav-item nav-link  w-100">
+          <a href="index.html#about" class="spa-btn pl-4" role="button">About Us</a >
+          </li>
+        <li>
+      </ul>
+    </nav>
+    </div>
+  <!-- Side Bar End -->
+  <!-- Info DisPlay -->
+<div id="displayInfo">
+
+</div>
+<!-- modal button -->
+<!-- <button class="productName" data-bs-toggle="modal" data-bs-target="#exampleModal"> Click to see more</button> -->
+<!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Description</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" 
+         style="padding:0 0 0 50px; font-size: larger"></button>
+        </div>
+        <div class="modal-body" id="productContent" style="text-align:justify">
+          
+        </div>
+        <div class="modal-footer">
+        <button type="button" id="close" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+<!-- Modal end -->
+<!-- End Display -->
+ </section>
+  </body>
+  <script src="js/aerobic-controller.js"></script>
+</html>

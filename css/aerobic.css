@@ -1,0 +1,149 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+min-height: 100vh;
+background-color: pink;
+}
+/* Nav Bar */
+#sidenav{
+  width: 20%;
+  float: left;
+  position: fixed;  /*   navbar always on top of the website */
+  top: 0;
+}
+.navbar
+{
+width:250px;
+height:100vh;
+position: absolute;
+background-color: #fefefe;
+transition: 0.2s;
+}
+.nav-link
+{
+font-size: 18pt;
+}
+.spa-btn{
+    text-decoration: none;
+    color: black;
+}
+.display-5
+{
+    font-size: 45pt;
+    color: black;
+}
+.nav-item:active,
+.nav-item:focus,
+.nav-item:hover{
+ background-color: #579f66;
+}
+.spa-btn:active,
+.spa-btn:focus,
+.spa-btn:hover
+{
+    color:pink;
+}
+/* Nav Bar End */
+.my-container
+{
+    transition: 0.2s;
+}
+#displayInfo{
+  width:80%;
+  float:right;
+  position: relative;
+  transition: 0.2s;
+  padding: 80px 0 0 0;
+}
+/* Start product */
+
+ /* List SP -----------------------------*/
+ .element_gifts {
+    position: relative;
+    float:left;
+    width: 300px;
+    height: 500px;
+    margin-bottom: 30px !important;
+    margin: 0 10px;
+    transition: 0.2s linear;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: none;
+  }
+  .element_gifts img {
+    width: 100%;
+    border-radius: 5px ;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .element_gifts p {
+    font-family: "Open Sans", sans-serif;
+    font-size: small ;
+  }
+  .element_gifts:hover {
+    box-shadow: 0px 19px 38px rgba(0, 0, 0, 0.3),
+    0px 15px 12px rgba(0, 0, 0, 0.22);
+    transform: translateY(-5px);
+  }
+  .img-modal{
+    margin-top: 20px;
+    width: 100%; 
+    height: 300px;
+    padding: 5px;
+  }
+  h5 {
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .product-layout {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.4s;
+    justify-content: center;
+  }
+  #close { 
+    padding: 10px 25px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #579f66;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 15px;
+    transition-duration: 0.4s;
+  }
+   
+  #close:hover{
+    background-color: #cd7577;
+    color: white;
+  }
+  /* product */
+  .card {
+    padding: 0 10px;
+    border: none;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+  }
+  
+  .card-body {
+    height: 168px;
+    padding: 5px;
+  }
+  

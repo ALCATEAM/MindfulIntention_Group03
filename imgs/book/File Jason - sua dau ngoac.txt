@@ -1,0 +1,357 @@
+[
+    {
+        id: "book1",
+        name: "Healthy Mind and Body",
+        type: "book",
+        category: "https://www.amazon.com/hz/audible/mlp/mfpdp/B07GRH73C1?ref=tmm_aud_title",
+        release: "Elizabeth Snow",
+        author: "Elizabeth Snow",
+        price: 9.99,
+        description: `<p><strong>Healthy Mind and Body: Rewire Your Thoughts to Love Exercise, Stop Unhealthy Eating Patterns and Feel Great About Your New Habits with Affirmations and Hypnosis</strong></p>
+        <p>If you are a sedentary person, it can be hard to envision loving the feeling of going for a run. But if you’re looking to lose weight and become a healthier person, exercise, along with healthy eating, is mandatory. Through the power of habit, you can learn to love your healthy new lifestyle.</p>
+
+	<p>This program has been designed to motivate you to get off the couch and get moving.</p>
+
+	<p>This program can help you:</p>
+
+	<p>- Rewire your thoughts to love exercise</p>
+	<p>- Stop unhealthy eating patterns</p>
+	<p>- Feel great about your new habits  </p>
+
+	<p>The audiobook includes:</p>
+
+	<p>Chapters one to eight: powerful affirmations. Listen during any part of the day or evening.</p>
+	<p>Chapters nine to 16: These subliminal nightly affirmations should be listened to on a low volume during or before sleep.</p>
+	<p>Making simple changes to your routine will help you become the best version of yourself. Don’t waste another moment not taking steps toward looking great and feeling great.</p>`,
+        image: "vendor/img/product/book/book1.jpg",
+    },
+    {
+        id: "book2",
+        name: "Healthy Body, Mind & Spirit:",
+        type: "book",
+        category: "https://www.amazon.com/hz/audible/mlp/mfpdp/B01925DPKU?ref=tmm_aud_title",
+        release: "Hypnosis, Meditation and Coaching Group, LLC",
+        author: `Amy Applebaum`,
+        price: 6.99,
+        description: `<p><strong>Healthy Body, Mind & Spirit: Self-Hypnosis and Meditation 4 in 1 Bundle</strong></p>
+        <p>Create your perfect body, and boost your health and mental energy. Prep your mind and body for success, and start living in a way that benefits and nurtures you. This hypnosis bundle from world-renowned life coach and hypnotherapist Amy Applebaum will help you live a healthier and more positive lifestyle, creating a positive and empowering mind-set for success.</p>
+        <p>This bundle of hypnosis programs has been specifically designed to help you create the strongest and healthiest body, mind, and spirit you can have. It includes the following tracks:</p>
+        <p>- Deep Sleep for Success - Relaxation Induction with Wake Ending
+        <p>- Deep Sleep for Success - Seashore Induction with Sleep Ending </p>
+	<p>- Be Anxiety Free - Relaxation Induction with Wake Ending</p>
+	<p>- Be Anxiety Free - Seashore Induction with Sleep Ending </p>
+	<p>- Create Your Perfect Body - Relaxation Induction with Wake Ending </p>
+	<p>- Create Your Perfect Body - Seashore Induction with Sleep Ending </p>
+	<p>- Attracting Health - Relaxation Induction with Wake Ending </p>
+	<p>- Attracting Health - Seashore Induction with Sleep Ending </p> </p>
+	<p>Live at your healthiest today! </p>`,
+        image: "vendor/img/product/book/book2.jpg",
+    },
+    {
+        id: "book3",
+        name: "How to Be Healthy: Body, Mind, and Spirit",
+        type: "book",
+        category: "https://www.amazon.com/hz/audible/mlp/mfpdp/B01KY6SZ1A?ref=tmm_aud_title",
+        author: `Lauren Deville `,
+        release: "Wanderlust Publishing ",
+        price: 7.49,
+        description: `<h1><strong>How to Be Healthy: Body, Mind, and Spirit</strong></h1>
+	<p>This book is designed to be a simple guide to better health, based on the following premise:</p>
+
+	<p>If you give your body what it needs to heal itself and remove the obstacles to cure, then within reason, healing will follow.</p>
+
+	<p>The nature cure is not easy to employ, but it is usually easy to understand. There are only so many building blocks, and there are only so many possible obstacles to cure. Our bodies are designed to heal themselves. The physician's job is not to "make someone well", but rather to facilitate the process of healing.</p>
+
+	<p>In this guide, Dr. Lauren will help you to recognize which obstacles to cure you face, how to remove them, and how to supply the specific building blocks for health that you lack so that you can create your own personal path to optimal wellness.</p>`,
+        image: "vendor/img/product/book/book3.jpg",
+    },
+    {
+        id: "book4",
+        name: "The Healthy Mind Toolkit",
+        type: "book",
+        category: "https://www.amazon.com/hz/audible/mlp/mfpdp/B07BSLW91M?ref=tmm_aud_title",
+        author: "Alice Boyes PhD",
+        release: "Alice Boyes PhD",
+        price: 15.99,
+        description: `<p>This book is designed to be a simple guide to better health, based on the following premise:</p>
+
+	<p>If you give your body what it needs to heal itself and remove the obstacles to cure, then within reason, healing will follow.</p>
+
+	<p>The nature cure is not easy to employ, but it is usually easy to understand. There are only so many building blocks, and there are only so many possible obstacles to cure. Our bodies are designed to heal themselves. The physician's job is not to "make someone well", but rather to facilitate the process of healing.</p>
+
+	<p>In this guide, Dr. Lauren will help you to recognize which obstacles to cure you face, how to remove them, and how to supply the specific building blocks for health that you lack so that you can create your own personal path to optimal wellness.</p>`,
+        image: "vendor/img/product/book/book4.jpg",
+    },
+    {
+        id: "book5",
+        name: "Meditating to Attain a Healthy Body Weight",
+        type: "book",
+        category: "https://www.amazon.com/Meditating-Attain-Healthy-Body-Weight/dp/0553373722",
+        author: `Lawrence Leshan `,
+        release: "Lawrence Leshan",
+        price: 6.70,
+        description: `An authority in the field of mind/body health explains how to utilize a personalized meditation program to lose weight and develop healthier habits by handling stress, gain a sense of control, deal with hunger and food, and achieve a new sense of satisfaction with life. Reprint.`,
+        image: "vendor/img/product/book/book5.jpg",
+    },
+
+    {
+        id: "book6",
+        name: "Mindful Eating: A Guide to Rediscovering a Healthy and Joyful Relationship with Food",
+        type: "book",
+        category: "https://www.amazon.com/Mindful-Eating-Rediscovering-Healthy-Relationship/dp/1590305310",
+        author: ` Jan Chozen Bays`,
+        release: "Jan Chozen Bays",
+        price: 5.99,
+        description: `<p>The art of mindfulness can transform our struggles with food—and renew our sense of pleasure, appreciation, and satisfaction with eating. Drawing on recent research and integrating her experiences as a physician and meditation teacher, Dr. Jan Bays offers a wonderfully clear presentation of what mindfulness is and how it can help with food issues.</p>
+
+	<p>Mindful eating is an approach that involves bringing one's full attention to the process of eating—to all the tastes, smells, thoughts, and feelings that arise during a meal. Whether you are overweight, suffer from an eating disorder, or just want to get more out of life, this book offers a simple tool that can make a remarkable difference.</p>
+
+	<p>In this book, you'll learn how to:</p>
+
+   <p>- Tune into your body's own wisdom about what, when, and how much to eat</p>
+   <p>- Eat less while feeling fully satisfied</p>
+   <p>- Identify your habits and patterns with food</p>
+   <p>- Develop a more compassionate attitude toward your struggles with eating</p>
+   <p>- Discover what you're really hungry for</p>`,
+        image: "vendor/img/product/book/book6.jpg",
+    },
+    {
+        id: "book7",
+        name: "30 BEST WATER AEROBICS",
+        type: "book",
+        category: "https://www.amazon.com/BEST-WATER-AEROBICS-relaxations-rehabilitations/dp/B094T5C1FN/ref=sr_1_1?crid=16FZ1EDN3DYMD&keywords=aerobics+exercise&qid=1656314877&s=books&sprefix=earobics+exercis%2Cstripbooks-intl-ship%2C270&sr=1-1",
+        author: "CHARLES DHARL",
+        release: "CHARLES DHARL",
+        price: 5.99,
+        description: `<p>30 BEST WATER AEROBICS: Effective Exercises for Body Fitness, Strength training, Deep relaxations, Injury healings and Body rehabilitations.</p>
+
+	<p>The 30 Best Water Aerobics Book is intended for everyone who wants or wishes to stay active in their daily Pool aerobic workouts for body fitness, Strength training, Deep relaxation, Injury preventions and Healings. Water aerobics is one of the best physical therapy for adults and pregnant women because it places less stress on the body than most types of exercise. Water aerobics is good for your heart, muscles, and weight loss, as well as maintaining your bones and joints in a healthy state.</p>
+
+	<p>Water aerobics falls under the category of aerobic exercise, which helps to preserve and enhance cardiovascular health. It serves to protect the heart and, as a result, lowers the risk of heart diseases. In this book, we will discuss various water aerobics workouts that will improve your body fitness, strength training and body rehabilitations.</p>`,
+        image: "vendor/img/product/book/book7.jpg",
+    },
+    {
+        id: "book8",
+        name: "Alfred's Basic Adult Piano Course Finger Aerobics",
+        type: "book",
+        category: "https://www.amazon.com/Alfreds-Basic-Course-Finger-Aerobics/dp/0739016334/ref=sr_1_3?crid=16FZ1EDN3DYMD&keywords=aerobics+exercise&qid=1656314909&s=books&sprefix=earobics+exercis%2Cstripbooks-intl-ship%2C270&sr=1-3",
+        author: " Willard Palmer ",
+        release: "Morton Manus",
+        price: 8.99,
+        description: `<p>Alfred's Basic Adult Piano Course Finger Aerobics, Bk 1: Exercises to Develop the Strength, Flexibility, and Agility of Each Finger (Alfred's Basic Adult Piano Course, Bk 1)</p>
+
+	<p>Exercises designed to develop strength, flexibility and agility, and coordinated page-by-page with Alfred's Basic Adult Piano Course. These exercises make a great warm-up and conditioner for the hands during practice time.</p>`,
+        image: "vendor/img/product/book/book8.jpg",
+    },
+    {
+        id: "book9",
+        name: "Aerobics Program For Total Well-Being: Exercise, Diet , And Emotional Balance ",
+        type: "book",
+        category: "https://www.amazon.com/Aerobics-Program-Total-Well-Being-Emotional/dp/0553346776/ref=sr_1_4?crid=16FZ1EDN3DYMD&keywords=aerobics+exercise&qid=1656314909&s=books&sprefix=earobics+exercis%2Cstripbooks-intl-ship%2C270&sr=1-4 ",
+        author: "Kenneth H. Cooper  ",
+        release: "Kenneth H. Cooper  ",
+        price: 19.42,
+        description: `<p>From the medical authority, whose previous bestsellers (Aerobics, The New Aerobics, The Aerobics Way, and Aerobics for Women) have sold more than 12 million copies, comes an exciting, new and comprehensive concept for total fitness. . . . </p>
+
+	<p>Millions have benefited from Dr. Cooper’s famous aerobic exercise programs. He has revolutionized the way Americans get in shape and stay in shape. Now, he presents a complete program for total well-being—physically, nutritionally, emotionally. Discover for yourself why it is the most effective, enjoyable and medically sound approach to a lifetime of energy and good health. </p>
+
+	<p>A program designed to bring physical and emotional health and vitality to every area of your life, including: </p>
+	 the 7 benefits of integrated aerobic exercise, including reduced risk of heart disease</p>
+	<p>- the 4 types of exercise that have been most radically re-evaluated in terms of aerobic exercise</p>
+	<p>- the 3 dozen ways to stay fit, and the 4 steps to making it fun</p>
+	<p>- 3 complete weeks of nutritious menus</p>
+	<p>- guidelines for the 22 components of a comprehensive medical exam, so you can work with your doctor to evaluate your level of fitness</p>
+	<p>-  plus, the aerobics way to diminish physical and emotional stress, enhance your sex life, and more </p>`,
+        image: "vendor/img/product/book/book9.jpg",
+    },
+    {
+        id: "book10",
+        name: "Aerobics Magic ",
+        type: "book",
+        category: "https://www.amazon.com/Aerobics-Magic-Healthy-Through-Exercises-ebook/dp/B09YM9HKFW/ref=sr_1_9?crid=16FZ1EDN3DYMD&keywords=aerobics+exercise&qid=1656314909&s=books&sprefix=earobics+exercis%2Cstripbooks-intl-ship%2C270&sr=1-9 ",
+        author: "B. C. Publishers ",
+        release: "  Andre Cortes ",
+        price: 15.99,
+        description: `<p>Aerobics Magic: A Simple Guide to Get Fit and Healthy Easily Through the Power of Aerobics Exercises </p>
+
+	<p>Do you think you need to work out like a crazy person in order to get fit and healthy?
+
+	<p>Because the truth is, you don't!</p>
+
+	<p>In fact, there's only one type of exercise you really need to do to take care of your body: Aerobics.</p>
+
+	<p>And the best thing is, you don't even have to join a gym or pay for classes to do them efficiently. You can get incredible results by doing aerobics outdoors or even from the comfort of your home. For free!</p>
+
+	<p>In Aerobics Magic, we'll talk you through the easiest, most common and powerful aerobics you can easily do to get the healthy body you want, whether you're a beginner or more experienced in exercising.</p>
+
+	<p>Whatever is your case, this book will give you everything you need to exercise efficiently without spending tons of money or long hours of your precious time...</p>
+
+	<p>Your life will become better and better once you know the magics of aerobics. Say hello to the healthy, fit version of you. </p>`,        
+	image: "vendor/img/product/book/book10.jpg",
+    },
+    {
+        id: "book11",
+        name: "Aerobics for the Mind ",
+        type: " book",
+        category: "https://www.amazon.com/Aerobics-Mind-Practical-Exercises-Philosophy/dp/0692348867/ref=sr_1_10?crid=16FZ1EDN3DYMD&keywords=aerobics+exercise&qid=1656314909&s=books&sprefix=earobics+exercis%2Cstripbooks-intl-ship%2C270&sr=1-10 ",
+        author: "Michael Potts Ph.D. ",
+        release: "Michael Potts Ph.D. ",
+        price: 19.99,
+        description: `<p>Aerobics for the Mind: Practical Exercises in Philosophy That Anybody Can Do </p>
+
+	<p>Remember when you were a child and incessantly asked your parents “Why?” You still had that childhood gift of wondering about everything from the simple “Why can’t I touch the stove eye when it’s red?” to the most profound questions people can ask “Why can’t I see God if He’s real?” </p>
+
+	<p>A common perception of philosophers is of the wizened old guru, sitting on a mountain top contemplating his navel; or worse, a stodgy, boring intellectual that everyone avoids at parties. But philosophy, at its best, is a joyous profession. Philosophers never stop wondering, why? They ask the most profound and universal questions: “Why am I here?” “Does life have a meaning?” “Is there a God?” “Do I have an immortal soul?” “What happens when I die?” Philosophers have the joy of re-living the wonder of a child. </p>
+
+	<p>Aerobics for the Mind: Practical Exercises in Philosophy that Anybody Can Do is a book for anyone who still has that unique, childlike sense of wonder. </p>`,
+        image: "vendor/img/product/book/book11.jpg",
+    },
+    {
+        id: "book12",
+        name: "Guitar Aerobics ",
+        type: "book",
+        category: "https://www.amazon.com/Guitar-Aerobics-One-lick-day-Maintaining/dp/1423414357/ref=sr_1_23?crid=16FZ1EDN3DYMD&keywords=aerobics+exercise&qid=1656315024&s=books&sprefix=earobics+exercis%2Cstripbooks-intl-ship%2C270&sr=1-23 ",
+        author: "Troy Nelson  ",
+        release: "Troy Nelson  ",
+        price: 17.94,
+        description: `<p>Guitar Aerobics: A 52-Week, One-lick-per-day Workout Program for Developing, Improving and Maintaining Guitar Technique Bk/online audio </p>
+
+	<p>From the former editor of Guitar One magazine, here is a daily dose of vitamins to keep your chops fine tuned for a full 52 weeks. The guitar exercises cover several musical styles including rock, blues, jazz, metal, country, and funk. Techniques taught include alternate picking, arpeggios, sweep picking, string skipping, legato, string bending, and rhythm guitar. These exercises will increase your speed and improve your dexterity and pick- and fret-hand accuracy the more you practice them. </p>`,
+        image: "vendor/img/product/book/book12.jpg",
+    },
+    {
+        id: "book13",
+        name: "Aerobic Gardening ",
+        type: "book ",
+        category: "https://www.amazon.com/Aerobic-Gardening-Learn-Lifetime-Master-ebook/dp/B07QRWV9Q3/ref=sr_1_32?crid=16FZ1EDN3DYMD&keywords=aerobics+exercise&qid=1656315024&s=books&sprefix=earobics+exercis%2Cstripbooks-intl-ship%2C270&sr=1-32 ",
+        author: "Jeffrey P. Restuccio ",
+        release: "Kindle Edition ",
+        price: 15.99,
+        description: `<p>Aerobic Gardening: An Hour to Learn, A Lifetime to Master </p>
+
+	<p>Since 1992 I’ve been promoting gardening as a fitness lifestyle. While others have written about gardening as exercise. I rarely see anything new or even remotely similar to the concepts and techniques in this book. To be clear, I am recommending major changes to how you currently garden; I am not just saying “hey, gardening is good exercise.” This book will change how you think and perform every garden motion. My first book, Fitness the Dynamic Gardening Way, extolled the virtues of moderate exercise, sound nutrition, and psychological well-being. It was revolutionary and far-reaching. My second book, Get Fit Through Gardening, was published in 2008 by Hatherleigh Press. It focused more on the specific and unique motions and techniques I’ve developed over the years. </p>
+
+	<p>This book, Aerobic Gardening, is a short distillation of the forty key concepts that transform traditional gardening into Aerobic Gardening. I’ve added concepts and techniques from the martial arts, aerobics, strength training, and other disciplines I’ve created something totally new. Call it Aerobic Gardening, Power Gardening, Fitness Gardening, or Dynamic Gardening. You are now gardening to exercise and exercising to garden. They are one. The more time, effort, and dedication you invest the greater the rewards. </p>
+
+	<p>After you’ve read through all forty concepts, don’t feel like you have to do all of them all of the time. Sometimes you just want to enjoy the garden and not work up a sweat. But, Aerobic Gardening can now become another tool in your fitness arsenal. It’s not all or nothing; no one is keeping score; you compete only with yourself. Have fun with it. At the very least, buying new tools, adopting my techniques, and focusing on your body will help you be less sore the next day after a few hours in the garden. Tell me your story. Let’s share this with the world. </p>`,
+        image: "vendor/img/product/book/book13.jpg",
+    },
+    {
+        id: "book14",
+        name: "Best Aerobic Exercises for Weight Loss ",
+        type: "book ",
+        category: "https://www.amazon.com/Best-Aerobic-Exercises-Weight-Loss-ebook/dp/B075M77TXX/ref=sr_1_49?crid=16FZ1EDN3DYMD&keywords=aerobics+exercise&qid=1656315087&s=books&sprefix=earobics+exercis%2Cstripbooks-intl-ship%2C270&sr=1-49 ",
+        author: "Laura Alexis ",
+        release: "Kindle Edition ",
+        price: 5.99,
+        description: `<p>Best Aerobic Exercises for Weight Loss: Aerobics Step for Weight Loss at Home </p>
+
+	<p> Step aerobics for weight loss comes with many benefits to your health including helping you burn belly fat while exercising and building cardiovascular fitness needed to move on to more advanced forms of aerobic exercise. When you are trying to burn belly fat combining aerobic step exercise with your favorite ab workout makes a great circuit training routine.</p>
+
+	<p>On way to moderate the amount of exercise you do is working out while you doing something else such as watching your favorite show on TV for a change. This sort of multitasking weight loss method may not be as effective as going to the gym or jogging, however if you are at the stage of just getting started into regular exercise it may be the next best thing. </p>
+
+	<p> </p>`,
+        image: "vendor/img/product/book/book14.jpg",
+    },
+    {
+        id: "book15",
+        name: "Practicing Mindfulness: An Introduction to Meditation ",
+        type: "book ",
+        category: "https://www.amazon.com/hz/audible/mlp/mfpdp/B00DTO49Y2?ref=tmm_aud_title ",
+        author: "Mark W. Muesse ",
+        release: "The Great Courses  ",
+        price: 8.99,
+        description: `<p>Meditation - the technique of mental focusing for enhanced awareness and self-mastery - offers deep and lasting benefits for mental functioning and emotional health, as well as for physical health and well-being. </p>
+
+	<p>This practice is closely related to "mindfulness," which Professor Muesse defines as "a deliberate way of paying attention to what is occurring within oneself as it is happening. It is the process of attentively observing your experience as it unfolds, without judgment or evaluation." </p>
+
+	<p>"Meditation," he adds, "refers to certain exercises that can be used to enlarge and refine mindfulness." Meditation cultivates mindfulness by training you to develop deep attention to the present moment, allowing the mind to become settled and centered. These 24 detailed lectures teach you the principles and techniques of sitting meditation, the related practice of walking meditation, and the highly beneficial use of meditative awareness in many important activities, including eating and driving. You will also learn how to use the skills of meditation in working with thoughts and emotional states, in deepening sensory awareness of the body, and in becoming deeply attentive to the operation of your mind. </p>
+
+	<p>You'll come away with a solid basis for your own meditation practice and for bringing meditation's remarkable and empowering benefits to every aspect of your life. </p>`,
+        image: "vendor/img/product/book/book15.jpg",
+    },
+    {
+        id: "book16",
+        name: "5 Guided Meditations for Anxiety, Deep Sleep, Relaxation, Positive Affirmations, and Self Love: Instantly Raise Your Vibration ",
+        type: "book ",
+        category: "https://www.amazon.com/hz/audible/mlp/mfpdp/B091FTNMTN?ref=tmm_aud_title ",
+        author: "Your Meditation Sanctuary  ",
+        release: "Pleiades Publishing, LLC. ",
+        price: 169,
+        description: `<p>Please enjoy five guided meditations for: </p>
+
+	<p>- anxiety</p>
+	<p>- deep sleep</p>
+	<p>- relaxation</p>
+	<p>- positive affirmations</p>
+	<p>- self-love </p>
+
+	<p>Say hello to a higher vibration after experiencing our guided meditations. </p>`,
+        image: "vendor/img/product/book/book16.jpg",
+    },
+    {
+        id: "book17",
+        name: "Meditations for Breaking the Habit of Being Yourself ",
+        type: "book",
+        category: "https://www.amazon.com/hz/audible/mlp/mfpdp/B09P2G26VZ?ref=tmm_aud_title ",
+        author: "Joe Dispenza  ",
+        release: " Hay House, Inc. ",
+        price: 15.67,
+        description: `<p>This mental-rehearsal Audio Download set, the four-week guided-meditation companion program to Dr Joe Dispenza's book Breaking the Habit of Being Yourself, is designed to move you from the analytical Beta brain-wave state to the state of Alpha, and develop your ability to sustain coherent brain-wave patterns. </p>
+
+	<p>By placing your awareness on different parts of your body "in space" and on "the space around your body", as instructed by Dr Joe, you are altering your brain so that you enter into the operating system of your subconscious mind - where unwanted habits and programmes exist. The objective is to learn to stay present and make meditation a skill. It is from this new place that you will begin to make the changes in your life that you desire! </p>`,
+        image: "vendor/img/product/book/book17.jpg",
+    },
+    {
+        id: "book18",
+        name: "Powerful Joe Dispenza Meditation  ",
+        type: "book",
+        category: "https://www.amazon.com/hz/audible/mlp/mfpdp/B09TPCTPR5?ref=tmm_aud_title ",
+        author: "Joe Dispenza  ",
+        release: "Joe Dispenza  ",
+        price: 15.99,
+        description: `<p>This is a powerful Joe Dispenza meditation guided by me with the help of Dr. Joe Dispenza to achieve a high vibrated morning, so you can have a successful day. This guided meditation is based on 432 Hz healing frequency and will help you be more relaxed and open up to the healing aspect of this guided meditation for becoming supernatural. </p>
+	<p>This morning meditation for becoming supernatural is very powerful, so please don't do it while driving. This guided meditation for becoming supernatural is also intended to dive deep into your subconscious mind and reprogram how you are thinking and feeling throughout the day. This meditation is solely for educational purpose and to teach people how to relax and raise their vibrations. </p>`,
+        image: "vendor/img/product/book/book18.jpg",
+    },
+    {
+        id: "book19",
+        name: "Anatomy of Exercise: A Trainer's Inside Guide to Your Workout ",
+        type: "book",
+        category: "https://www.amazon.com/Anatomy-Exercise-Trainers-Inside-Workout/dp/1554073855/ref=sr_1_4?crid=3VS8OVA7V1Z9Z&keywords=aerobics+anatomy&qid=1656315532&sprefix=aerobics+anatomy%2Caps%2C261&sr=8-4 ",
+        author: " Pat Manocchia ",
+        release: " Pat Manocchia ",
+        price: 16.94
+        description: `<p>Anatomy of Exercise is revolutionary for its insights into how different muscles of the body actually work during exercise. The book is organized by body area and shows common sequences in the progression of a typical workout. Lifelike anatomical illustrations demonstrate each exercise and reveal in colorful detail exactly which muscles are engaged, which are being conditioned and how those muscles respond. </p>
+
+	<p>The following features help the reader gain the greatest benefit from each exercise and thereby improve fitness and well-being: </p>
+
+	<p>- Detailed, full-color anatomical illustrations for all the exercises</p>
+	<p>- Annotations identifying the active and stabilizing muscles</p>
+	<p>- Concise how-to instructions for each exercise</p>
+	<p>- Identification of the specific muscles that benefit the most from each exercise</p>
+	<p>- Suggested modifications for different levels of difficulty</p>
+	<p>- Instructions on stabilizing the body throughout each movement</p>
+	<p>- A visual index of exercises that allows easy navigation through the book</p>
+	<p>- A glossary of anatomical terms. </p>
+
+	<p>No other book provides such rich detail tailored to the general reader. Beginners, those already committed to exercise, competing athletes, trainers, coaches, physiotherapists, massage therapists and the many others involved in fitness will find Anatomy of Exercise fascinating, instructive and practical. </p>`,
+        image: "vendor/img/product/book/book19.jpg",
+    },
+    {
+        id: "book20",
+        name: "Aerobic Exercise: Great Routines to Foster Healthy Living ",
+        type: "book",
+        category: "https://www.amazon.com/hz/audible/mlp/mfpdp/B00K2880RK?ref=tmm_aud_title ",
+        author: "Jana Duncan  ",
+        release: " Speedy Publishing LLC",
+        price: 11.99,
+        description: `<p>If you are overweight and are trying to shed those extra pounds or if you are simply trying to find way to get fit then you ought to get a copy of Aerobic Exercise: Great Routines to Foster Healthy Living. It will help you to learn what to do to get in shape. </p>
+
+	<p> There is a resurgence of interest in the search for ways to achieve health and wellness as many prepare to make lifestyle changes to increase their chances of living longer and to keep certain diseases at bay for as long as possible.  </p>
+
+	<p> The book not only highlights certain exercises that can be done to achieve this but also highlights other things that can be done to be healthy. </p>`,
+        image: "vendor/img/product/book/book20.jpg",
+    },
+
+]

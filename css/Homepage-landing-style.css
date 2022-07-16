@@ -1,0 +1,414 @@
+/*  Reset CSS to default    */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; /*For scrolling anchor*/
+}
+
+/*  Initilize body's font & color   */
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    overflow-x: hidden;
+}
+
+/*  Start of navbar */
+header {
+    position: sticky;  /*   navbar always on top of the website */
+    top: 0;
+    background: #fff;
+    box-shadow: 0 0 18px rgba(55, 66, 59, 0.08);
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+/*CSS for website's logo*/
+header .logo {
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+    margin: 0 65px; 
+    line-height: 80px;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    color: #579f66;
+}
+
+/*Display none unordered list dots*/
+header .navbar ul {
+    list-style: none;
+}
+
+/*CSS for list items*/
+header .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+/*CSS for list item's links*/
+header .navbar ul li a {
+    text-decoration: none;
+    color: #37423b;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 30px;
+    margin-top: 15px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    white-space: nowrap;
+    transition: 0.3s; /*    slower the effect of hover  */
+}
+
+/*Effect when hover on navbar's links*/
+header .navbar ul li a:hover,
+header .navbar ul li a.active {
+    color: #cd7577;
+}
+
+/*Menu bar & label CSS*/
+#menu-bar {
+    display: none;
+}
+
+header label {
+    color: #37423b;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    display: none;
+}
+
+/*Responsive navbar*/
+@media screen and (max-width: 1320px) {
+    header .logo {
+        margin: 0;
+    }
+
+    header label {
+        display: initial;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: 1px solid #f9f9f9;
+        display: none;
+    }
+
+    header .navbar ul li {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    header .navbar ul li ul {
+        position: relative;
+        width: 100%;
+    }
+
+    header .navbar ul li ul li {
+        width: 100%;
+        padding-left: 30px;
+        left: 0;
+    }
+
+    #menu-bar:checked ~ .navbar {
+        display: initial;
+    }
+}
+/*  End of navbar   */
+
+/* Carousel img resize */
+.carousel-item {
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+  }
+
+/*Aerobic & Meditation sections start*/
+.about, .home-aerobic, .home-meditation {
+    padding: 170px 100px;
+}
+
+.home-row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    line-height: 30px;
+    flex-wrap: wrap;
+}
+
+.home-row .home-col {
+    position: relative;
+    width: 48%;
+}
+
+.titleText {
+    color: #111;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.titleText span {
+    color: #579f66;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.home-row .home-col .imgBox {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+}
+
+.home-row .home-col .imgBox img {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+}
+
+.home-row .home-col p {
+    padding-bottom: 15px;
+    text-align: justify;
+}
+/*Aerobic & Meditation sections end*/
+
+/*About us start*/
+.about .titleText {
+    text-align: center;
+}
+
+.about-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+.about-container .box {
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem;
+}
+  
+.about-container .box:hover .about-imgBox {
+    transform: translateY(-3rem);
+}
+  
+.about-container .box:hover .about-content {
+    transform: translateY(4rem);
+}
+  
+.about-imgBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+}
+  
+.about-imgBox img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    resize: both;
+}
+  
+.about-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    z-index: 1;
+    align-items: flex-end;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+  
+.about-content h5 {
+    display: block;
+    font-size: 1rem;
+    color: #111;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+  
+.about-content span {
+    color: #555;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+  
+@media (max-width: 600px) {
+    .container .box:hover .about-content {
+      transform: translate(0, 3.5rem);
+    }
+    .container .box:hover .imgBox {
+      transform: translate(0, -3.5rem);
+    }
+}
+/*About us end*/
+
+/*Contact Info start*/
+.contact {
+    padding: 100px 100px;
+}
+
+.contact .titleText {
+    text-align: center;
+}
+.contact .geolocation iframe{
+    width: 100%;
+}
+
+.contact .home-row .home-col h3 {
+    padding: 15px 0;
+}
+
+.contact .home-row .home-col p {
+    line-height: 40px;
+}
+
+.contact .home-row .home-col a {
+    color: #444444; 
+    text-decoration: none;
+}
+
+.contact .homepage-form {
+    padding: 30px;
+}
+
+.contact .homepage-form .btn {
+    width: 100%;
+    background: #579f66;
+    border: none;
+}
+
+.contact .homepage-form .btn:hover {
+    background: #cd7577;
+}
+/*Contact Info end*/
+
+/*More info button start*/
+.moreinfo-btn {
+    width: 120px;
+    padding: 7px;
+    margin-top: 20px;
+    background-color: #579f66;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.moreinfo-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.moreinfo-btn:hover {
+    background: #cd7577;
+}
+/*More info button end*/
+
+/*  Start of Footer */
+footer {
+    background-color: #f9f9f9;
+    box-shadow: 0 0 18px rgba(55, 66, 59, 0.08);
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+footer a {
+    text-decoration: none; 
+}
+  
+.footer-item {
+    padding: 7rem 0;
+    font-family: "Poppins", sans-serif; 
+}
+
+.footer-item .footer-site-logo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+      
+.footer-item .footer-site-logo a {
+    color: #579f66; 
+}
+    
+   
+.footer-item .nav-links li {
+    display: inline-block; 
+}
+        
+.footer-item .nav-links li a {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px;
+    color: #444444; 
+}
+          
+.footer-item .nav-links li a:hover {
+    color: #cd7577; 
+}
+    
+.footer-item .social h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000; 
+}
+    
+.footer-item .social ul li {
+    display: inline-block; 
+}
+      
+.footer-item .social ul li a {
+    display: inline-block;
+    padding: 10px; 
+}
+    
+.footer-item .social ul li.in a {
+    color: #df588a; 
+}
+    
+.footer-item .social ul li.tw a {
+    color: #15b8ff; 
+}
+      
+.footer-item .social ul li.fb a {
+    color: #3742d0; 
+}
+      
+.footer-item .social ul li.yt a {
+    color: #FF0000; 
+}
+      
+.footer-item .social ul li.pin a {
+    color: #dd4d5a; 
+}
+    
+.footer-item .copyright {
+    color: #999999; 
+}
+/*  End of Footer   */
+

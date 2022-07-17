@@ -68,7 +68,7 @@ for(i=0; i<data.indoors.length;i++){
                 <hr>
                 <h5 onclick="getIndoors('${data.indoors[i].id}')" data-id="${data.indoors[i].id}" style="font-size: 20px" 
                 class="productName" data-bs-toggle="modal" data-bs-target="#exampleModal" >${data.indoors[i].name}</h5> 
-                <p style="font-size: 17px">${data.indoors[i].type}</p>
+                <p style="font-size: 20px">${data.indoors[i].type}</p>
                 </div>
             </div>
             </div>
@@ -83,7 +83,7 @@ for(i=0; i<data.outdoors.length;i++){
             <img onclick="getOutdoors('${data.outdoors[i].id}')" src="${data.outdoors[i].imgs}" data-id="${data.outdoors[i].id}" class="card-img-top productImg" data-bs-toggle="modal" data-bs-target="#exampleModal">
               <div class="card-body">
               <h5 onclick="getOutdoors('${data.outdoors[i].id}')" data-id="${data.outdoors[i].id}" style="font-size: 20px" class="productName" data-bs-toggle="modal" data-bs-target="#exampleModal" >${data.outdoors[i].name}</h5> 
-              <p style="font-size: 17px">${data.outdoors[i].type}</p>
+              <p style="font-size: 20px">${data.outdoors[i].type}</p>
               </div>
           </div>
 
@@ -99,7 +99,7 @@ for(i=0; i<data.both.length;i++){
             <img onclick="getBoth('${data.both[i].id}')"src="${data.both[i].imgs}" data-id="${data.both[i].id}" class="card-img-top modal-toggle" data-bs-toggle="modal" data-bs-target="#exampleModal">
               <div class="card-body">
               <h5 onclick="getBoth('${data.both[i].id}')" data-id="${data.both[i].id}" style="font-size: 20px" class="modal-toggle" data-bs-toggle="modal" data-bs-target="#exampleModal" >${data.both[i].name}</h5> 
-              <p style="font-size: 17px">${data.both[i].type}</p>
+              <p style="font-size: 20px">${data.both[i].type}</p>
               </div>
           </div>
   </div>
@@ -123,7 +123,7 @@ function renderIndoor (data){
                 <hr>
                 <h5 onclick="getIndoors('${data.indoors[i].id}')" data-id="${data.indoors[i].id}" style="font-size: 20px" 
                 class="productName" data-bs-toggle="modal" data-bs-target="#exampleModal" >${data.indoors[i].name}</h5> 
-                <p style="font-size: 17px">${data.indoors[i].type}</p>
+                <p style="font-size: 20px">${data.indoors[i].type}</p>
                 </div>
             </div>
             </div>
@@ -142,7 +142,7 @@ function renderOutdoor (data){
               <img onclick="getOutdoors('${data.outdoors[i].id}')" src="${data.outdoors[i].imgs}" data-id="${data.outdoors[i].id}" class="card-img-top productImg" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <div class="card-body">
                 <h5 onclick="getOutdoors('${data.outdoors[i].id}')" data-id="${data.outdoors[i].id}" style="font-size: 20px" class="productName" data-bs-toggle="modal" data-bs-target="#exampleModal" >${data.outdoors[i].name}</h5> 
-                <p style="font-size: 17px">${data.outdoors[i].type}</p>
+                <p style="font-size: 20px">${data.outdoors[i].type}</p>
                 </div>
             </div>
 
@@ -162,7 +162,7 @@ function renderBoth (data){
               <img onclick="getBoth('${data.both[i].id}')"src="${data.both[i].imgs}" data-id="${data.both[i].id}" class="card-img-top modal-toggle" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <div class="card-body">
                 <h5 onclick="getBoth('${data.both[i].id}')" data-id="${data.both[i].id}" style="font-size: 20px" class="modal-toggle" data-bs-toggle="modal" data-bs-target="#exampleModal" >${data.both[i].name}</h5> 
-                <p style="font-size: 17px">${data.both[i].type}</p>
+                <p style="font-size: 20px">${data.both[i].type}</p>
                 </div>
             </div>
     </div>
@@ -195,8 +195,8 @@ case '1':{
             <div class="col-sm-7 col-md-7 col-lg-7 modal-item-detail">
               <div style="margin-left: 5px;">
                 <h3 style="color: gray; text-align: left; font-family: tahoma; font-size: 35px;"> <strong><b>${data.indoors[i].name}</b></strong> </h3>
-                <p><strong>Benefit</strong> ${data.indoors[i].benefit}</p>
-                <p><strong>Anatomy</strong> ${data.indoors[i].anatomy}</p>
+                <p><strong style="font-size:20px;">Benefit</strong> ${data.indoors[i].benefit}</p>
+                <p><strong style="font-size:20px;">Anatomy</strong> ${data.indoors[i].anatomy}</p>
               </div>
                 
             </div>
@@ -226,8 +226,8 @@ function modalIndoors(data){
           <div class="col-sm-7 col-md-7 col-lg-7 modal-item-detail">
             <div style="margin-left: 5px;">
               <h3 style="color: gray; text-align: left; font-family: tahoma; font-size: 35px;"> <strong><b>${data.indoors[i].name}</b></strong> </h3>
-              <p><strong>Benefit</strong> ${data.indoors[i].benefit}</p>
-              <p><strong>Anatomy</strong> ${data.indoors[i].anatomy}</p>
+              <p><strong style="font-size:20px;">Benefit</strong> ${data.indoors[i].benefit}</p>
+              <p><strong style="font-size:20px;">Anatomy</strong> ${data.indoors[i].anatomy}</p>
             </div>
               
           </div>
@@ -257,8 +257,8 @@ s+=`
         <div class="col-sm-7 col-md-7 col-lg-7 modal-item-detail">
           <div style="margin-left: 5px;">
             <h3 style="color: gray; text-align: left; font-family: tahoma; font-size: 35px;"> <strong><b>${data.indoors[i].name}</b></strong> </h3>
-            <p><strong>Benefit</strong> ${data.indoors[i].benefit}</p>
-            <p><strong>Anatomy</strong> ${data.indoors[i].anatomy}</p>
+            <p><strong style="font-size:20px;">Benefit</strong> ${data.indoors[i].benefit}</p>
+            <p><strong style="font-size:20px;">Anatomy</strong> ${data.indoors[i].anatomy}</p>
           </div>
             
         </div>
@@ -288,8 +288,8 @@ s+=`
         <div class="col-sm-7 col-md-7 col-lg-7 modal-item-detail">
           <div style="margin-left: 5px;">
             <h3 style="color: gray; text-align: left; font-family: tahoma; font-size: 35px;"> <strong><b>${data.indoors[i].name}</b></strong> </h3>
-            <p><strong>Benefit</strong> ${data.indoors[i].benefit}</p>
-            <p><strong>Anatomy</strong> ${data.indoors[i].anatomy}</p>
+            <p><strong style="font-size:20px;">Benefit</strong> ${data.indoors[i].benefit}</p>
+            <p><strong style="font-size:20px;">Anatomy</strong> ${data.indoors[i].anatomy}</p>
           </div> 
         </div>
     </div>
@@ -318,8 +318,8 @@ s+=`
         <div class="col-sm-7 col-md-7 col-lg-7 modal-item-detail">
           <div style="margin-left: 5px;">
             <h3 style="color: gray; text-align: left; font-family: tahoma; font-size: 35px;"> <strong><b>${data.indoors[i].name}</b></strong> </h3>
-            <p><strong>Benefit</strong> ${data.indoors[i].benefit}</p>
-            <p><strong>Anatomy</strong> ${data.indoors[i].anatomy}</p>
+            <p><strong style="font-size:20px;">Benefit</strong> ${data.indoors[i].benefit}</p>
+            <p><strong style="font-size:20px;">Anatomy</strong> ${data.indoors[i].anatomy}</p>
           </div>   
         </div>
     </div>
@@ -348,8 +348,8 @@ s+=`
         <div class="col-sm-7 col-md-7 col-lg-7 modal-item-detail">
           <div style="margin-left: 5px;">
             <h3 style="color: gray; text-align: left; font-family: tahoma; font-size: 35px;"> <strong><b>${data.indoors[i].name}</b></strong> </h3>
-            <p><strong>Benefit</strong> ${data.indoors[i].benefit}</p>
-            <p><strong>Anatomy</strong> ${data.indoors[i].anatomy}</p>
+            <p><strong style="font-size:20px;">Benefit</strong> ${data.indoors[i].benefit}</p>
+            <p><strong style="font-size:20px;">Anatomy</strong> ${data.indoors[i].anatomy}</p>
           </div> 
         </div>
     </div>
@@ -382,8 +382,8 @@ function getOutdoors(id){
               <div class="col-sm-7 col-md-7 col-lg-7 modal-item-detail">
                 <div style="margin-left: 5px;">
                   <h3 style="color: gray; text-align: left; font-family: tahoma; font-size: 35px;"> <strong><b>${data.outdoors[i].name}</b></strong> </h3>
-                  <p><strong>Benefit</strong> ${data.outdoors[i].benefit}</p>
-                  <p><strong>Anatomy</strong> ${data.outdoors[i].anatomy}</p>
+                  <p><strong style="font-size:20px;">Benefit</strong> ${data.outdoors[i].benefit}</p>
+                  <p><strong style="font-size:20px;">Anatomy</strong> ${data.outdoors[i].anatomy}</p>
                 </div>  
               </div>
           </div>
@@ -412,8 +412,8 @@ function getOutdoors(id){
             <div class="col-sm-7 col-md-7 col-lg-7 modal-item-detail">
               <div style="margin-left: 5px;">
                 <h3 style="color: gray; text-align: left; font-family: tahoma; font-size: 35px;"> <strong><b>${data.outdoors[i].name}</b></strong> </h3>
-                <p><strong>Benefit</strong> ${data.outdoors[i].benefit}</p>
-                <p><strong>Anatomy</strong> ${data.outdoors[i].anatomy}</p>
+                <p><strong style="font-size:20px;">Benefit</strong> ${data.outdoors[i].benefit}</p>
+                <p><strong style="font-size:20px;">Anatomy</strong> ${data.outdoors[i].anatomy}</p>
               </div>
                 
             </div>
@@ -443,8 +443,8 @@ function getOutdoors(id){
           <div class="col-sm-7 col-md-7 col-lg-7 modal-item-detail">
             <div style="margin-left: 5px;">
               <h3 style="color: gray; text-align: left; font-family: tahoma; font-size: 35px;"> <strong><b>${data.outdoors[i].name}</b></strong> </h3>
-              <p><strong>Benefit</strong> ${data.outdoors[i].benefit}</p>
-              <p><strong>Anatomy</strong> ${data.outdoors[i].anatomy}</p>
+              <p><strong style="font-size:20px;">Benefit</strong> ${data.outdoors[i].benefit}</p>
+              <p><strong style="font-size:20px;">Anatomy</strong> ${data.outdoors[i].anatomy}</p>
             </div>
               
           </div>
@@ -474,8 +474,8 @@ function getOutdoors(id){
           <div class="col-sm-7 col-md-7 col-lg-7 modal-item-detail">
             <div style="margin-left: 5px;">
               <h3 style="color: gray; text-align: left; font-family: tahoma; font-size: 35px;"> <strong><b>${data.outdoors[i].name}</b></strong> </h3>
-              <p><strong>Benefit</strong> ${data.outdoors[i].benefit}</p>
-              <p><strong>Anatomy</strong> ${data.outdoors[i].anatomy}</p>
+              <p><strong style="font-size:20px;">Benefit</strong> ${data.outdoors[i].benefit}</p>
+              <p><strong style="font-size:20px;">Anatomy</strong> ${data.outdoors[i].anatomy}</p>
             </div>
           </div>
       </div>
@@ -504,8 +504,8 @@ function getOutdoors(id){
           <div class="col-sm-7 col-md-7 col-lg-7 modal-item-detail">
             <div style="margin-left: 5px;">
               <h3 style="color: gray; text-align: left; font-family: tahoma; font-size: 35px;"> <strong><b>${data.outdoors[i].name}</b></strong> </h3>
-              <p><strong>Benefit</strong> ${data.outdoors[i].benefit}</p>
-              <p><strong>Anatomy</strong> ${data.outdoors[i].anatomy}</p>
+              <p><strong style="font-size:20px;">Benefit</strong> ${data.outdoors[i].benefit}</p>
+              <p><strong style="font-size:20px;">Anatomy</strong> ${data.outdoors[i].anatomy}</p>
           </div>
       </div>
     </div>
@@ -533,8 +533,8 @@ function getOutdoors(id){
           <div class="col-sm-7 col-md-7 col-lg-7 modal-item-detail">
             <div style="margin-left: 5px;">
               <h3 style="color: gray; text-align: left; font-family: tahoma; font-size: 35px;"> <strong><b>${data.outdoors[i].name}</b></strong> </h3>
-              <p><strong>Benefit</strong> ${data.outdoors[i].benefit}</p>
-              <p><strong>Anatomy</strong> ${data.outdoors[i].anatomy}</p>
+              <p><strong style="font-size:20px;">Benefit</strong> ${data.outdoors[i].benefit}</p>
+              <p><strong style="font-size:20px;">Anatomy</strong> ${data.outdoors[i].anatomy}</p>
             </div> 
           </div>
       </div>
@@ -567,8 +567,8 @@ function getBoth(id){
                 <div class="col-sm-7 col-md-7 col-lg-7 modal-item-detail">
                   <div style="margin-left: 5px;">
                     <h3 style="color: gray; text-align: left; font-family: tahoma; font-size: 35px;"> <strong><b>${data.both[i].name}</b></strong> </h3>
-                    <p><strong>Benefit</strong> ${data.both[i].benefit}</p>
-                    <p><strong>Benefit</strong> ${data.both[i].anatomy}</p>
+                    <p><strong style="font-size:20px;">Benefit</strong> ${data.both[i].benefit}</p>
+                    <p><strong style="font-size:20px;">Benefit</strong> ${data.both[i].anatomy}</p>
                   </div> 
                 </div>
             </div>
@@ -597,8 +597,8 @@ function getBoth(id){
               <div class="col-sm-7 col-md-7 col-lg-7 modal-item-detail">
                 <div style="margin-left: 5px;">
                   <h3 style="color: gray; text-align: left; font-family: tahoma; font-size: 35px;"> <strong><b>${data.both[i].name}</b></strong> </h3>
-                  <p><strong>Benefit</strong> ${data.both[i].benefit}</p>
-                  <p><strong>Benefit</strong> ${data.both[i].anatomy}</p>
+                  <p><strong style="font-size:20px;">Benefit</strong> ${data.both[i].benefit}</p>
+                  <p><strong style="font-size:20px;">Benefit</strong> ${data.both[i].anatomy}</p>
                 </div>
               </div>
           </div>
@@ -627,8 +627,8 @@ function getBoth(id){
             <div class="col-sm-7 col-md-7 col-lg-7 modal-item-detail">
               <div style="margin-left: 5px;">
                 <h3 style="color: gray; text-align: left; font-family: tahoma; font-size: 35px;"> <strong><b>${data.both[i].name}</b></strong> </h3>
-                <p><strong>Benefit</strong> ${data.both[i].benefit}</p>
-                <p><strong>Benefit</strong> ${data.both[i].anatomy}</p>
+                <p><strong style="font-size:20px;">Benefit</strong> ${data.both[i].benefit}</p>
+                <p><strong style="font-size:20px;">Benefit</strong> ${data.both[i].anatomy}</p>
               </div>
             </div>
         </div>
@@ -657,8 +657,8 @@ function getBoth(id){
             <div class="col-sm-7 col-md-7 col-lg-7 modal-item-detail">
               <div style="margin-left: 5px;">
                 <h3 style="color: gray; text-align: left; font-family: tahoma; font-size: 35px;"> <strong><b>${data.both[i].name}</b></strong> </h3>
-                <p><strong>Benefit</strong> ${data.both[i].benefit}</p>
-                <p><strong>Benefit</strong> ${data.both[i].anatomy}</p>
+                <p><strong style="font-size:20px;">Benefit</strong> ${data.both[i].benefit}</p>
+                <p><strong style="font-size:20px;">Benefit</strong> ${data.both[i].anatomy}</p>
               </div> 
             </div>
         </div>
@@ -687,8 +687,8 @@ function getBoth(id){
             <div class="col-sm-7 col-md-7 col-lg-7 modal-item-detail">
               <div style="margin-left: 5px;">
                 <h3 style="color: gray; text-align: left; font-family: tahoma; font-size: 35px;"> <strong><b>${data.both[i].name}</b></strong> </h3>
-                <p><strong>Benefit</strong> ${data.both[i].benefit}</p>
-                <p><strong>Benefit</strong> ${data.both[i].anatomy}</p>
+                <p><strong style="font-size:20px;">Benefit</strong> ${data.both[i].benefit}</p>
+                <p><strong style="font-size:20px;">Benefit</strong> ${data.both[i].anatomy}</p>
               </div> 
             </div>
         </div>
@@ -718,8 +718,8 @@ function getBoth(id){
             <div class="col-sm-7 col-md-7 col-lg-7 modal-item-detail">
               <div style="margin-left: 5px;">
                 <h3 style="color: gray; text-align: left; font-family: tahoma; font-size: 35px;"> <strong><b>${data.both[i].name}</b></strong> </h3>
-                <p><strong>Benefit</strong> ${data.both[i].benefit}</p>
-                <p><strong>Benefit</strong> ${data.both[i].anatomy}</p>
+                <p><strong style="font-size:20px;">Benefit</strong> ${data.both[i].benefit}</p>
+                <p><strong style="font-size:20px;">Benefit</strong> ${data.both[i].anatomy}</p>
               </div>  
             </div>
         </div>

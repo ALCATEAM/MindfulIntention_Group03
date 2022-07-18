@@ -9,13 +9,13 @@
 /*  Initilize body's font & color   */
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #2a2f23;
 }
 
 .book-container{
   width: 100%;
   margin: auto;
-  background: #fff;
+  background: #ecebbd;
   padding: 20px;
 }
 
@@ -34,7 +34,7 @@ body {
   cursor: pointer;
   font-size: 18px;
   padding: 10px 15px;
-  background-color: #f9f9f9;
+  background-color: #ecebbd;
   border-radius: 5px;
   border: none;
 }

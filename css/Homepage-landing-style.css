@@ -9,7 +9,7 @@
 /*  Initilize body's font & color   */
 body {
     font-family: "Open Sans", sans-serif;
-    color: #444444;
+    color: #2a2f23;
     overflow-x: hidden;
 }
 
@@ -17,7 +17,7 @@ body {
 header {
     position: sticky;  /*   navbar always on top of the website */
     top: 0;
-    background: #fff;
+    background: #ecebbd;
     box-shadow: 0 0 18px rgba(55, 66, 59, 0.08);
     padding: 5px 20px;
     display: flex;
@@ -52,7 +52,7 @@ header .navbar ul li {
 /*CSS for list item's links*/
 header .navbar ul li a {
     text-decoration: none;
-    color: #37423b;
+    color: #2a2f23;
     font-size: 15px;
     font-weight: 500;
     padding: 0 30px;
@@ -77,7 +77,7 @@ header .navbar ul li a.active {
 }
 
 header label {
-    color: #37423b;
+    color: #2a2f23;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -100,7 +100,7 @@ header label {
         top: 100%;
         left: 0;
         right: 0;
-        background: #fff;
+        background: #ecebbd;
         border-top: 1px solid #f9f9f9;
         display: none;
     }

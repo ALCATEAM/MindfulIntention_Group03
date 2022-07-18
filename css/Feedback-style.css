@@ -7,7 +7,7 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    color: #444444;
+    color: #2a2f23;
 }
 
 /*Feedback page start*/
@@ -62,7 +62,7 @@ body {
 }
 
 .question2 .btn:hover {
-    background-color: #fff;
+    background-color: #ecebbd;
     border-color: #cd7577;
     color:#cd7577;
 }

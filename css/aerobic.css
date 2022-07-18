@@ -7,7 +7,7 @@
 body
 {
 min-height: 100vh;
-background-color: pink;
+background-color: #cd7577;
 }
 /* Nav Bar */
 #sidenav{
@@ -42,7 +42,7 @@ font-size: 18pt;
 .nav-item:focus,
 .nav-item:hover{
 
- background-color: #656966;
+ background-color: #ecebbd;
 }
 .spa-btn:active,
 .spa-btn:focus,

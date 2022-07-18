@@ -1,9 +1,19 @@
 # MindfulIntention_Group03
-====================================================
-====================================================
+
+
+
+
+
+
 Sem : 01
 Batch No: T1.2203.E1
 Center Name: FPT APTECH HCMC
+
+
+
+
+
+
 ================================
 Group Members
 01. 
@@ -11,5 +21,5 @@ Group Members
 03.
 04.
 ================================
-eProject published at: 
+eProject published at: https://alcateam.github.io/MindfulIntention_Group03/
 

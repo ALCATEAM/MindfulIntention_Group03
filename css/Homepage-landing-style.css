@@ -86,7 +86,7 @@ header label {
 }
 
 /*Responsive navbar*/
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 360px) {
     header .logo {
         margin: 0;
     }

@@ -9,13 +9,13 @@
 /*  Initilize body's font & color   */
 body {
   font-family: "Open Sans", sans-serif;
-  color: #2a2f23;
+  color: #444444;
 }
 
 .book-container{
   width: 100%;
   margin: auto;
-  background: #ecebbd;
+  background: #fff;
   padding: 20px;
 }
 
@@ -34,7 +34,7 @@ body {
   cursor: pointer;
   font-size: 18px;
   padding: 10px 15px;
-  background-color: #ecebbd;
+  background-color: #f9f9f9;
   border-radius: 5px;
   border: none;
 }
@@ -112,7 +112,9 @@ h5 {
 .card-body {
   height: 168px;
   padding: 5px;
+  letter-spacing: 0.5px;
 }
+
 #header-refe{
   display: flex;
   justify-content: space-between;
@@ -125,7 +127,7 @@ h5 {
   margin-top: 30px;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
-  color: #6d9a79;
+  color: #579f66;
   font-size: 30px;
   font-weight: 900;
   letter-spacing: 1px;
@@ -149,11 +151,58 @@ h5 {
   text-decoration: none;
   list-style: none;
   font-size: x-large;
-  position: relative;
+  position: absolute;
   margin-left: 510px;
   border-radius:10px ;
   margin-top: 28px;
   padding: 2px 12px;
   height: 48px;
   border: 2px solid;
+}
+
+.form{
+  margin-top: 20px;
+  position: relative;
+  width: 300px;
+}
+
+.form .fa-search{
+
+  position: absolute;
+  top:20px;
+  left: 20px;
+  color: #9ca3af;
+
+}
+
+.form span{
+
+      position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+  padding-left: 7px;
+}
+
+.left-pan i{
+ 
+ padding-left: 10px;
+}
+
+.form-input{
+
+  height: 55px;
+  text-indent: 33px;
+  border-radius: 10px;
+}
+
+.form-input:focus{
+
+  box-shadow: none;
+  border:none;
 }

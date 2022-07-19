@@ -21,5 +21,5 @@ Teacher: Mr. Lê Thanh Nhân
 eProject published at: https://alcateam.github.io/MindfulIntention_Group03/
 
 ---------------------------------------------------------------------------
-Documentation published at: 
+Documentation published at: https://github.com/ALCATEAM/MindfulIntention_Group03/tree/master/documentation
 
